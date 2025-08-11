@@ -24,7 +24,7 @@ const FAQ = () => {
     {
       id: 'plans',
       question: 'Can I switch plans?',
-      answer: 'Yes, you can upgrade, downgrade or cancel your plan at any time. If you upgrade, you'll be charged the prorated amount for the rest of your billing cycle. If you downgrade, you'll receive credit for your next billing cycle.'
+      answer: 'Yes, you can upgrade, downgrade or cancel your plan at any time. If you upgrade, you\'ll be charged the prorated amount for the rest of your billing cycle. If you downgrade, you\'ll receive credit for your next billing cycle.'
     },
     {
       id: 'team',
@@ -39,7 +39,7 @@ const FAQ = () => {
     {
       id: 'cancel',
       question: 'Can I cancel my subscription?',
-      answer: 'Yes, you can cancel your subscription at any time. When you cancel, you'll have access to your account until the end of your current billing cycle.'
+      answer: 'Yes, you can cancel your subscription at any time. When you cancel, you\'ll have access to your account until the end of your current billing cycle.'
     }
   ]
   return (

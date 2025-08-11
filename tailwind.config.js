@@ -1,7 +1,8 @@
-export default {content: [
-  './index.html',
-  './src/**/*.{js,ts,jsx,tsx}'
-],
+export default {
+  content: [
+    './index.html',
+    './src/**/*.{js,ts,jsx,tsx}'
+  ],
   theme: {
     extend: {
       colors: {
@@ -16,8 +17,15 @@ export default {content: [
           700: '#6d28d9',
           800: '#5b21b6',
           900: '#4c1d95',
-        }
+        },
+        primary: "#223b65",
+        secondary: "#f36921",
+        dark: "#1e1d21"
+      },
+      rounded: {
+        '3xl': '1.5rem',
+        '4xl': '1rem',
       }
     }
   }
-}
+};
