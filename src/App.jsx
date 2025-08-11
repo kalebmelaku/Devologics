@@ -1,7 +1,5 @@
 import React from 'react';
-import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import Partners from './components/Partners';
 import Stats from './components/Stats';
 import Services from './components/Services';
 import Pricing from './components/Pricing';
@@ -10,9 +8,7 @@ import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 export function App() {
   return <div className="flex flex-col min-h-screen w-full bg-white">
-      <Navbar />
       <Hero />
-      <Partners />
       <Stats />
       <Services />
       <Pricing />
