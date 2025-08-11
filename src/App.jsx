@@ -9,11 +9,11 @@ import Footer from './components/Footer';
 export function App() {
   return <div className="flex flex-col min-h-screen w-full bg-white">
       <Hero />
-      <Stats />
+      {/* <Stats />
       <Services />
       <Pricing />
       <Testimonials />
-      <FAQ />
+      <FAQ /> */}
       <Footer />
     </div>;
 }
